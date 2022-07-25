@@ -109,3 +109,13 @@ def is_valid():
 app.run(host = '0.0.0.0', port = 5000)
 
 # we have to create some peers to check it better
+'''
+
+getting the whole chain is not a good idea
+thats better to first get the len and after checking the peers len
+then downloading the chain
+
+also we dont have broadcast mecanism here which we can write peers list and
+broadcast mecanism using some apis
+
+'''
